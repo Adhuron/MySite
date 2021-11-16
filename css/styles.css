@@ -1,0 +1,26 @@
+
+body{
+  margin:0;
+}
+h1{
+  margin: 0;
+
+}
+
+.intro{
+  background-color:#CEE5D0;
+}
+.test1{
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  border: solid 20px;
+  margin-left:  280px;
+}
+.test2{
+  background-color: yellow;
+  width: 200px;
+  height: 200px;
+  border:solid 10px;
+  margin-left: 520px;
+}
