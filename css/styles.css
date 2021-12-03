@@ -1,30 +1,104 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 100%;
+}
+.middle-container{
+  margin: 100px 0;
+}
 
-.intro{
-  background-color:#CEE5D0;
+h1 {
+  font-size: 5.625rem;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+.skill-row{
+  width: 50%;
+  margin:  50px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+.Introduction{
+  width :30%;
+  margin:auto;
+}
+
+h2 {
+  padding-bottom: 10px;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  color: #66BFBF;
+}
+
+p {
+  color: #40514E;
+}
+.Programing{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.Football{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+
+hr {
+  border-color: #EAF6F6;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+  margin: 50px auto 50px auto;
+}
+
+.intro {
+  background-color: #EAF6F6;
   position: relative;
   padding-top: 100px;
 }
-.Profile-photo{
+
+.bottom-container{
+background-color: #66BFBF;
 height: 200px;
-width: 200px;
- border-radius: 50%;
-
+text-align: center;
+padding: 50px 0 20px;
 }
 
-h1{
-  margin-top: 0;
-  font-family: 'Sacramento',cursive;
-
+.btn {
+  background: #83bee6;
+  background-image: -webkit-linear-gradient(top, #83bee6, #1e6fa1);
+  background-image: -moz-linear-gradient(top, #83bee6, #1e6fa1);
+  background-image: -ms-linear-gradient(top, #83bee6, #1e6fa1);
+  background-image: -o-linear-gradient(top, #83bee6, #1e6fa1);
+  background-image: linear-gradient(to bottom, #83bee6, #1e6fa1);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Merriweather', serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
 
-body{
-  margin:0;
-  text-align: center;
-  background-color:#CEE5D0;
-  font-family: 'Merriweather',serif;
+
+.Profile-photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }
 
-.top-cloud{
+.top-cloud {
   position: absolute;
   right: 500px;
   top: 50px;
@@ -32,22 +106,39 @@ body{
   height: 70px;
 }
 
-
-.botom-cloud{
-  background-color:#CEE5D0;
+.botom-cloud {
   position: absolute;
-  right:  850px;
+  right: 850px;
   bottom: 550px;
   width: 150px;
   height: 70px;
-
 }
-.mountain{
+
+.mountain {
   width: auto;
   height: auto;
-
 }
 
+.footer-link{
+   margin: auto 50px auto;
+}
+.contact-me{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.a{
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+  text-decoration: none;
+
+}
+a:hover{
+  color: #EAF6F6;
+}
+.copyright{
+  color:#EAF6F6;
+  padding: 20px 0;
+}
 
 /* different color boxes
 .red{
